@@ -264,8 +264,10 @@ struct TechnicalSkills: View {
             
             VStack(alignment : .leading){
                 
+                
+                
                 HStack {
-                    Text("Swift Language")
+                    Text("Swift")
                         .padding()
                         .background(Color.orange)
                         .cornerRadius(15)
@@ -277,14 +279,20 @@ struct TechnicalSkills: View {
                         .background(Color.orange)
                         .cornerRadius(15)
                     
+                    Text("XCode")
+                            .padding()
+                            .background(Color.orange)
+                        .cornerRadius(15)
+                    
                     Spacer()
                     
-                    Text("XCode")
-                        .padding()
-                        .background(Color.orange)
+                    Text("GitHub")
+                            .padding()
+                            .background(Color.orange)
                         .cornerRadius(15)
                     
                 }
+                
                 
             }
             .padding()
